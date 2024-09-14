@@ -59,6 +59,18 @@ class Loader {
 		$this->actions    = array();
 		$this->filters    = array();
 		$this->shortcodes = array();
+		$this->add_action('init', $this, 'add_story_type');
+	}
+
+	/**
+	 * Add my CPT
+	 */
+	public function add_story_type() {
+		register_extended_post_type('story', [], [
+			'singular' => 'Story',
+			'plural'   => 'Stories',
+			'slug'     => 'stories',
+		]);
 	}
 
 	/**
