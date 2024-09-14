@@ -81,6 +81,7 @@
         }
     },
     "require": {
-        "php": ">=8.0"
+        "php": ">=8.0",
+        "johnbillion/extended-cpts": "^5.0"
     }
 }
