@@ -13,7 +13,7 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Awesome Plugin
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       This is my awesome plugin that uses juvo/wordpress-plugin-boilerplate and Extended CPTs.
  * Version:           1.0.0
  * Requires PHP:      8.0
  * License:           GPL-2.0+
